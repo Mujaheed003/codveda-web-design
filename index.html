@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Green & Gold</title>
+    <link rel="stylesheet" href="style.css" />
+    <!-- FontAwesome CSS Link -->
+    <link rel="stylesheet" href="assets/fontawesome/css/all.css" />
+    <link rel="stylesheet" href="assets/fontawesome/css/all.min.css" />
+
+    <!-- AOS Animation CSS Link -->
+    <link rel="stylesheet" href="assets/aos/dist/aos.css" />
+  </head>
+  <body>
+    <!-- Header -->
+    <header>
+      <div class="header-inner">
+        <h1 data-aos="flip-left">Green & Gold</h1>
+        <nav>
+          <button
+            class="menu-toggle"
+            aria-label="Open Menu"
+            data-aos="fade-left"
+          >
+            <i class="fas fa-bars"></i>
+          </button>
+          <ul data-aos="flip-right">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#gallery">Gallery</a></li>
+            <li><a href="#blog">Blog</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <!-- Home -->
+    <section id="home">
+      <h2 data-aos="fade-down">Modern Responsive Design</h2>
+      <p data-aos="fade-up">
+        Crafted with CSS Flexbox & Grid, fully optimized for desktops, tablets,
+        and mobiles. Elegant in green and gold, designed to adapt beautifully.
+      </p>
+      <button
+        onclick="document.querySelector('#contact').scrollIntoView({behavior:'smooth'})"
+        data-aos="fade-up"
+      >
+        Get in Touch
+      </button>
+    </section>
+
+    <!-- Gallery -->
+    <section id="gallery">
+      <h3 data-aos="fade-up">Our Gallery</h3>
+      <div class="gallery-grid">
+        <img
+          src="assets/img/gallery/gallery-1.jpg"
+          alt="Gallery 1"
+          data-aos="fade-right"
+        />
+        <img
+          src="assets/img/gallery/gallery-2.jpg"
+          alt="Gallery 2"
+          data-aos="fade-up"
+        />
+        <img
+          src="assets/img/gallery/gallery-3.jpg"
+          alt="Gallery 3"
+          data-aos="fade-down"
+        />
+        <img
+          src="assets/img/gallery/gallery-4.jpg"
+          alt="Gallery 4"
+          data-aos="fade-left"
+        />
+        <img
+          src="assets/img/gallery/gallery-5.jpg"
+          alt="Gallery 5"
+          data-aos="fade-right"
+        />
+        <img
+          src="assets/img/gallery/gallery-6.jpg"
+          alt="Gallery 6"
+          data-aos="fade-up"
+        />
+        <img
+          src="assets/img/gallery/gallery-7.jpg"
+          alt="Gallery 7"
+          data-aos="fade-down"
+        />
+        <img
+          src="assets/img/gallery/gallery-8.jpg"
+          alt="Gallery 8"
+          data-aos="fade-left"
+        />
+      </div>
+    </section>
+
+    <!-- Blog -->
+    <section id="blog">
+      <h3 data-aos="fade-up">Latest Blog Posts</h3>
+      <div class="blog-grid">
+        <div class="card">
+          <img
+            src="assets/img/blog/blog-1.jpg"
+            alt="Blog 1"
+            data-aos="fade-right"
+          />
+          <div class="card-body">
+            <h4>Design with Flexbox</h4>
+            <p>
+              Learn how to align and distribute space using CSS Flexbox
+              effectively.
+            </p>
+          </div>
+        </div>
+        <div class="card">
+          <img
+            src="assets/img/blog/blog-2.jpg"
+            alt="Blog 2"
+            data-aos="fade-up"
+          />
+          <div class="card-body">
+            <h4>CSS Grid Power</h4>
+            <p>Master the art of modern layouts with the CSS Grid system.</p>
+          </div>
+        </div>
+        <div class="card">
+          <img
+            src="assets/img/blog/blog-3.jpg"
+            alt="Blog 3"
+            data-aos="fade-left"
+          />
+          <div class="card-body">
+            <h4>Responsive Design</h4>
+            <p>Build websites that adapt seamlessly across all screen sizes.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact">
+      <h3 data-aos="fade-up">Contact Us</h3>
+      <div class="contact-columns" data-aos="fade-left">
+        <div class="contact-info">
+          <h4>Get in Touch</h4>
+          <ul>
+            <li><strong>Email:</strong> info@greenandgold.com</li>
+            <li><strong>Phone:</strong> +1 234 567 890</li>
+            <li><strong>Location:</strong> City, Country</li>
+          </ul>
+          <h4>Follow Us</h4>
+          <ul class="contact-social">
+            <li><a href="#">Facebook</a></li>
+            <li><a href="#">Twitter</a></li>
+            <li><a href="#">Instagram</a></li>
+            <li><a href="#">LinkedIn</a></li>
+          </ul>
+        </div>
+        <div class="contact-form" data-aos="fade-right">
+          <form>
+            <input type="text" placeholder="Your Name" required />
+            <input type="email" placeholder="Your Email" required />
+            <textarea rows="5" placeholder="Your Message" required></textarea>
+            <button type="submit">Send Message</button>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer data-aos="fade-up">
+      <div class="footer-container">
+        <div class="footer-col">
+          <h4>About Us</h4>
+          <p>
+            Green & Gold delivers modern, responsive web solutions for
+            professionals and businesses.
+          </p>
+        </div>
+        <div class="footer-col">
+          <h4>Quick Links</h4>
+          <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#gallery">Gallery</a></li>
+            <li><a href="#blog">Blog</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Contact</h4>
+          <ul>
+            <li>Email: info@greenandgold.com</li>
+            <li>Phone: +1 234 567 890</li>
+            <li>Location: City, Country</li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Follow Us</h4>
+          <ul class="footer-social">
+            <li><a href="#">Facebook</a></li>
+            <li><a href="#">Twitter</a></li>
+            <li><a href="#">Instagram</a></li>
+            <li><a href="#">LinkedIn</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>© 2025 Green & Gold | Professional Responsive Layout</p>
+      </div>
+    </footer>
+
+    <script>
+      // Mobile menu toggle
+      const menuToggle = document.querySelector(".menu-toggle");
+      const navUl = document.querySelector("nav ul");
+      menuToggle.addEventListener("click", () => {
+        navUl.classList.toggle("open");
+      });
+      // Close menu when clicking outside
+      document.addEventListener("click", function (e) {
+        if (!menuToggle.contains(e.target) && !navUl.contains(e.target)) {
+          navUl.classList.remove("open");
+        }
+      });
+    </script>
+
+    <!-- FontAwesome CSS Link -->
+    <script src="assets/fontawesome/js/all.js"></script>
+    <script src="assets/fontawesome/js/all.min.js"></script>
+
+    <!-- AOS Animation JS Link -->
+    <script src="assets/aos/dist/aos.js"></script>
+    <script>
+      AOS.init({
+        duration: 3000,
+        once: true,
+      });
+    </script>
+  </body>
+</html>
